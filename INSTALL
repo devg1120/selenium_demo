@@ -1,0 +1,26 @@
+chrome  install
+
+https://uepon.hatenadiary.com/entry/2023/08/18/010431
+
+$ mkdir install
+$ cd install
+$ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+
+$ sudo apt install ./google-chrome-stable_current_amd64.deb
+
+$ which google-chrome-stable
+
+$ google-chrome-stable --version
+Google Chrome 128.0.6613.113 
+
+************************************************************
+chrome-Driver  install
+
+https://developer.chrome.com/docs/chromedriver/downloads?hl=ja
+https://googlechromelabs.github.io/chrome-for-testing/
+
+wget https://storage.googleapis.com/chrome-for-testing-public/128.0.6613.86/linux64/chromedriver-linux64.zip
+
+unzip chromedriver-linux64.zip
+
+
